@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    font-family: 'Orbitron', sans-serif;
+    background: linear-gradient(135deg, #000000, #1a1a1a);
+    color: white;
+}
+
+.index-body .centered {
+    text-align: center;
+    padding-top: 150px;
+}
+
+.logo {
+    width: 200px;
+}
+
+.enter-button {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 15px 30px;
+    background: #00f2fe;
+    border: none;
+    color: black;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+.enter-button:hover {
+    background: #4facfe;
+    transform: scale(1.1);
+}
+
+/* More CSS for dashboard, grid items, upload section, member cards, etc. */
